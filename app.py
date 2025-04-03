@@ -20,7 +20,7 @@ if not app.secret_key:
     app.secret_key = secrets.token_hex(32)
 
 
-database_url = "postgresql://postgres.milzlyzilgeuijgvktvy:AI-tistic6371@aws-0-ap-south-1.pooler.supabase.com:5432/postgrese"
+database_url = "postgresql://postgres.milzlyzilgeuijgvktvy:AI-tistic6371@aws-0-ap-south-1.pooler.supabase.com:5432/postgres"
 
 
 
