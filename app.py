@@ -20,7 +20,8 @@ if not app.secret_key:
     app.secret_key = secrets.token_hex(32)
 
 
-database_url = "postgresql://postgres:AI-tistic6371@db.milzlyzilgeuijgvktvy.supabase.co:5432/postgres"
+database_url = "postgresql://postgres:AI-tistic6371@db.milzlyzilgeuijgvktvy.supabase.co:5432/postgres?sslmode=require"
+
 
 
 app.config['SQLALCHEMY_DATABASE_URI'] = database_url
