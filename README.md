@@ -26,7 +26,7 @@ An AI-powered web application that extracts text from student PDF submissions an
 ## 🚀 How to Run
 
 # Clone the repository
-git clone https://github.com/yourusername/assignment-grading-system.git
+git clone https://github.com/Theirresponsiblebrat6371/assignment-grading-system.git
 cd assignment-grading-system
 
 # Install required packages
